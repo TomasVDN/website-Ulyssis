@@ -1,0 +1,23 @@
+{
+  "name": "website-ulyssis",
+  "version": "1.0.0",
+  "description": "A website for the Ulyssis webserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomasVDN/website-Ulyssis.git"
+  },
+  "author": "Rpone",
+  "license": "SEE LICENCE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/TomasVDN/website-Ulyssis/issues"
+  },
+  "homepage": "https://github.com/TomasVDN/website-Ulyssis#readme",
+  "devDependencies": {
+    "es-module-shims": "^1.5.4",
+    "three": "^0.139.2"
+  }
+}

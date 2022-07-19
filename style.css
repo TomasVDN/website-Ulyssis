@@ -1,0 +1,117 @@
+/* 1px is roughly .1em */
+/* 0 auto means 0 on top and bottom, auto left and right. */ 
+/* auto 0 means auto top and bottom, 0 on left and right. */
+
+/* Padding makes the body not hit edge on small screens */
+/* Margin 0 auto prevents body from aligning left */
+
+body {
+	background: #ccc;
+	color: #000;
+	font-size: 1em;
+	margin: 0 auto;
+	max-width: 60em;
+	padding: 0 1em;
+}
+
+/* Style the header at the top of the page */
+
+header {
+	border-style: dotted;
+	border-width: 0 0 .1em 0;
+	font-size: .66em;
+}
+
+/* This makes all links bold and blue */
+
+a {	
+	color: #0000EE;
+	font-weight: bold;
+}
+
+/* Makes all clicked links red */
+
+a:active {
+	color: #FF0000;
+}
+
+/* This puts a box around links selected by tab */
+
+a:focus {
+	outline: .2em solid;
+	text-decoration: none;
+}
+
+/* Make visited links purple */
+
+a:visited {
+	color: #800080;
+}
+
+/* Replace black bullet with the spinning gif */
+
+ul {
+	list-style-image: url('images/bullet.gif');
+}
+
+/* Places a little space below an unordered list item */
+
+li {
+	padding: 0 0 .66em 0;
+}
+
+/* After the new class list item, insert the new.gif image */
+
+li.new:after {
+	content: url('./images/new.gif');
+	padding: 0 0 0 .3em;
+}
+
+/* Styling images */
+
+figure img {
+	border: solid #000 .15em;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	max-width: 100%;
+	padding: .1em;
+}
+
+figcaption {
+	font-weight: bold;
+	padding: .4em;
+	text-align: center;
+}
+
+table, th, td {
+	border: .1em solid black;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+code, kbd {
+	font-weight: bold;
+}
+
+/* Specific to recipes page */
+
+section.recipe {
+	border-style: solid;
+	border-width: .1em;
+	margin: 0 0 1.75em 0;
+	padding: .70em;
+}
+
+section.recipe h3 {
+	border-style: groove;
+	border-width: 0 0 .15em 0;
+}
+
+/* Style the footer at bottom of page */
+
+footer {
+	border-style: dotted;
+	border-width: .1em 0 0 0;
+	font-size: .8em;
+}
